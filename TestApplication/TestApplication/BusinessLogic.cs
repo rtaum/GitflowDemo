@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TestApplication
+﻿namespace TestApplication
 {
     public class BusinessLogic
     {
         public void MethodA()
         {
-            // Method A is fixed
+            // Method A is improved
             Console.WriteLine($"{nameof(MethodA)} is called");
         }
 
@@ -18,6 +12,17 @@ namespace TestApplication
         {
             // this is a bugfix
             Console.WriteLine($"{nameof(MethodB)} is called");
+        }
+
+        public void MethodC()
+        {
+            // new, very importan comment
+            Console.WriteLine($"{nameof(MethodC)} is called");
+        }
+
+        public void MethodD()
+        {
+            Console.WriteLine($"{nameof(MethodD)} is called");
         }
     }
 }
