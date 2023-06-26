@@ -10,6 +10,7 @@ namespace TestApplication
     {
         public void MethodA()
         {
+            // Method A is fixed
             Console.WriteLine($"{nameof(MethodA)} is called");
         }
 
