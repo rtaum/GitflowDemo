@@ -4,25 +4,12 @@
     {
         public void MethodA()
         {
-            // Method A is improved
             Console.WriteLine($"{nameof(MethodA)} is called");
         }
 
         public void MethodB()
         {
-            // this is a bugfix
             Console.WriteLine($"{nameof(MethodB)} is called");
-        }
-
-        public void MethodC()
-        {
-            // new, very importan comment
-            Console.WriteLine($"{nameof(MethodC)} is called");
-        }
-
-        public void MethodD()
-        {
-            Console.WriteLine($"{nameof(MethodD)} is called");
         }
     }
 }
