@@ -11,5 +11,10 @@
         {
             Console.WriteLine($"{nameof(MethodB)} is called");
         }
+
+        public void MethodC()
+        {
+            Console.WriteLine($"{nameof(MethodC)} is called");
+        }
     }
 }
