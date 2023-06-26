@@ -21,7 +21,13 @@ namespace TestApplication
 
         public void MethodC()
         {
+            // new, very importan comment
             Console.WriteLine($"{nameof(MethodC)} is called");
+        }
+
+        public void MethodD()
+        {
+            Console.WriteLine($"{nameof(MethodD)} is called");
         }
     }
 }
