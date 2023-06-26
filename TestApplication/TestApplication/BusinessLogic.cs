@@ -15,6 +15,7 @@ namespace TestApplication
 
         public void MethodB()
         {
+            // this is a bugfix
             Console.WriteLine($"{nameof(MethodB)} is called");
         }
 
