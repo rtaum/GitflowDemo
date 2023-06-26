@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TestApplication
+﻿namespace TestApplication
 {
     public class BusinessLogic
     {
         public void MethodA()
         {
+            // Method A is improved
             Console.WriteLine($"{nameof(MethodA)} is called");
         }
 
